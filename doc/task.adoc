@@ -56,7 +56,7 @@ On top of the above classes, it provides two more classes for easy representatio
 - Implemented equals() and hashCode()
 - Implemented toString()
 
-One of the benefits of using tuples in a multi-threaded application is that tuples are immutable and deemed thread-safe (with a small caveat).
+One of the #benefits of using tuples in a multi-threaded application is that tuples are immutable and deemed thread-safe# (with a small caveat).
 
 '''
 
