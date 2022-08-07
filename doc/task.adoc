@@ -62,3 +62,35 @@ Java Stack Class
 In Java, Stack is a class that falls under the Collection framework that extends the Vector class. It also implements interfaces List, Collection, Iterable, Cloneable, Serializable. It represents the LIFO stack of objects. Before using the Stack class, we must import the java.util package. The stack class arranged in the Collections framework hierarchy, as shown below.
 
 image::../src/main/resources/static/img/image-2022-08-07-11-18-09-614.png[]
+
+'''
+
+== Thread safe (i.e. synchronized data structures):
+
+A thread-safe class is a class that guarantees the internal state of the class as well as returned values from methods, are correct while invoked concurrently from multiple threads. The collection classes that are thread-safe in Java are Stack, Vector, Properties, Hashtable, etc.
+
+https://www.tutorialspoint.com/which-collection-classes-are-thread-safe-in-java
+
+https://stackoverflow.com/questions/6045648/which-java-collections-are-synchronizedthread-safe-which-are-not
+
+=== Thread safe Collections:
+
+- ConcurrentHashMap
+
+    Thread safe without having to synchronize the whole map Very fast reads while write is done with a lock No locking at the object level Uses multitude of locks.
+
+- SynchronizedHashMap
+
+    Object level synchronization Both read and writes acquire a lock Locking the collection has a performance drawback May cause contention
+
+- Vector
+
+- HashTable
+
+- CopyOnWriteArrayList
+
+- CopyOnWriteArraySet
+
+- Stack
+
+#Rest all are not thread safe#
