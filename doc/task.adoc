@@ -25,6 +25,39 @@ A tuple is often compared with List as it looks very much like a list. But they 
 
 - If you have a dataset which will be assigned only once in a lifetime and its value should not change again, you need a tuple.
 
+=== Core Classes
+
+JavaTuples support tuples of size up to '10' and for each size, it has provided a tuple implementation like below.
+
+- Unit (one element)
+- Pair (two elements)
+- Triplet (three elements)
+- Quartet (four elements)
+- Quintet (five elements)
+- Sextet (six elements)
+- Septet (seven elements)
+- Octet (eight elements)
+- Ennead (nine elements)
+- Decade (ten elements)
+
+On top of the above classes, it provides two more classes for easy representation of pairs. Those are mostly the same as Pair but have more verbose syntax.
+
+- KeyValue
+- LabelValue
+
+=== Features and Advantages
+==== Different types of tuples are:
+
+- Type safe
+- Immutable
+- Iterable
+- Serializable
+- Comparable (implements Comparable interface)
+- Implemented equals() and hashCode()
+- Implemented toString()
+
+One of the benefits of using tuples in a multi-threaded application is that tuples are immutable and deemed thread-safe (with a small caveat).
+
 '''
 
 == Multiple type of ArrayList:
@@ -92,5 +125,7 @@ https://stackoverflow.com/questions/6045648/which-java-collections-are-synchroni
 - CopyOnWriteArraySet
 
 - Stack
+
+- Tuple
 
 #Rest all are not thread safe#
