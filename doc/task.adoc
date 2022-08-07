@@ -1,5 +1,7 @@
 = Good to know
 
+image::../src/main/resources/static/img/image-2022-08-07-12-21-36-150.png[]
+
 == Tuple in general:
 
 A tuple can be seen as an ordered collection of objects of different types. These objects do not necessarily relate to each other in any way, but collectively they will have some meaning.
@@ -129,3 +131,12 @@ https://stackoverflow.com/questions/6045648/which-java-collections-are-synchroni
 - Tuple
 
 #Rest all are not thread safe#
+
+'''
+
+== Primitive Data Structure
+
+Primitive data structure is a data structure that can hold a single value in a specific location whereas the non-linear data structure can hold multiple values either in a contiguous location or random locations. The examples of primitive data structure are float, character, integer and pointer.
+
+image::../src/main/resources/static/img/image-2022-08-07-12-24-23-700.png[]
+
