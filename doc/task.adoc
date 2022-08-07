@@ -1,0 +1,32 @@
+= Good to know
+
+== Tuple in general:
+
+A tuple can be seen as an ordered collection of objects of different types. These objects do not necessarily relate to each other in any way, but collectively they will have some meaning.
+
+image::../src/main/resources/static/img/image-2022-08-07-10-35-57-895.png[]
+
+Java doesn't have any such inbuilt data structure to support tuples. Whenever required, we can create a class that can act like a tuple.
+
+Also, in Java, part of the tuple functionality can be written using List or Array but those will not allow us to hold different types of data types by design. So we can say that heterogeneous tuples using a standard data structure is not possible in Java.
+
+
+== Comparison of Tuples vs Lists/Arrays:
+
+A tuple is often compared with List as it looks very much like a list. But they differ in some aspects.
+
+- A tuple is an object that can contain heterogeneous data. Lists are designed to store elements of a single type.
+
+- Out of all data structures, a tuple is considered to be the fastest, and they consume the least amount of memory.
+
+- While array and list are mutable which means you can change their data value and modify their structures, a tuple is immutable.
+
+- Like an array, a tuple is also fixed in size. That is why tuples aim to replace array completely as they are more efficient in all parameters.
+
+- If you have a dataset which will be assigned only once in a lifetime and its value should not change again, you need a tuple.
+
+'''
+
+== Multiple type of ArrayList:
+
+List<Object> multipleTypeObjects = new ArrayList <Object>();
