@@ -13,3 +13,5 @@ Data Structure Clarification && Tuple
 ![img.png](src/main/resources/static/img/img06.png)
 
 ![img.png](src/main/resources/static/img/img07.png)
+
+![img.png](src/main/resources/static/img/img08.png)
